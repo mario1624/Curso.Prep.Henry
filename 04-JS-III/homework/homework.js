@@ -137,6 +137,7 @@ function cuentoElementos(arreglo){
       contador++
     }
   }
+  
   return contador;
 }
 

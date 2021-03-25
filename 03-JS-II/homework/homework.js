@@ -49,11 +49,11 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
  
-   if (idioma===aleman){
+   if (idioma==="aleman"){
     return "Guten Tag!"
-   }else if(idioma=== mandarin){
+   }else if(idioma=== "mandarin"){
      return "Ni Hao!"
-   }else if(idioma=== ingles){
+   }else if(idioma=== "ingles"){
      return "Hello!"
    }else{
      return "hola!"
@@ -74,7 +74,7 @@ function colors(color) {
    case "blue":
      return "This is blue";
    case "red": 
-   return "this is red"
+   return "This is red"
    case "green":
      return "This is green"
      case "orange":

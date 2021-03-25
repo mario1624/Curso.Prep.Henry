@@ -103,7 +103,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return x%y;
+  return x % y;
 }
 
 function esPar(num) {
@@ -194,13 +194,15 @@ function combinarNombres(nombre, apellido) {
   console.log()
 }
 
+
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
   console.log('Hola! ' + nombre);
+  return obtenerSaludo('Martin')
 }
-obtenerSaludo('Martin');
+
 
 
 
@@ -216,6 +218,8 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
+  let perimetro= lado*4;
+  return perimetro;
 }
 
 
@@ -240,6 +244,7 @@ function esVocal(letra){
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
+  
 }
 
 
